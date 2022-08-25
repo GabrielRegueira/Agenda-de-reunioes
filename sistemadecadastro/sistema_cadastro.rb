@@ -1,8 +1,8 @@
 # Cadastros
 @cadastro_pessoas = [
-    {nome: "Gabriel", telefone: "82999700404", endereco: "Rua Desportista Humberto Guimarães, 447", cpf: "096.229.924-39"},
-    {nome: "João", telefone: "99999999", endereco: "Rua das montanhas, 101", cpf: "780.432.567-78"},
-    {nome: "Pedro", telefone: "77777777", endereco: "Rua da Praia, 222", cpf: "124.345.347-89"},
+    {nome: "Gabriel", telefone: "82999700404", endereco: "Rua Desportista Humberto Guimarães, 447", cpf: "09622992439"},
+    {nome: "João", telefone: "99999999", endereco: "Rua das montanhas, 101", cpf: "78043256778"},
+    {nome: "Pedro", telefone: "77777777", endereco: "Rua da Praia, 222", cpf: "12434534789"},
 ]
 
 # Todos os nomes cadastrados
