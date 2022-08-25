@@ -1,2 +1,2 @@
-# Agenda-de-reunioes
-Programa para gerenciar reuniões em Ruby
+# Sistema-de-cadastro
+Programa para gerenciar cadastros em Ruby
