@@ -161,7 +161,7 @@ def editar_cadastro_pelo_cpf
     end
 end
 
-# Remover cadastro
+# Remover cadastro pelo nome
 def remover_cadastro_pelo_nome
     print "Qual cadastro deseja remover?"
     puts "Digite o nome abaixo: "
@@ -179,14 +179,14 @@ def remover_cadastro_pelo_nome
     end
 end
 
-# Remove o cadastro pelo CPF
+# Remover o cadastro pelo CPF
 def remover_cadastro_pelo_cpf
     print "Qual cadastro deseja remover? "
     puts "Digite o CPF abaixo."
     cpf = gets.chomp
     
     @cadastro_pessoas.each do |cadastro|
-        if cadastro[:cpf].include? 
+        if cadastro[:cpf].eql?(cpf) 
             puts "Nome: #{cadastro[:nome]} - Telefone: #{cadastro[:telefone]} - Endereço: #{cadastro[:endereco]} - CPF: #{cadastro[:cpf]}"
             indice = @cadastro_pessoas.index(cadastro)
             @cadastro_pessoas.delete_at(indice)
